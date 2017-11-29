@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Qwigley; /* Имя шрифта */
+    src: url(/fonts/Qwigley-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Open Sans; /* Имя шрифта */
+    src: url(/fonts/Open Sans.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	cursor: default;
+}
+body::-webkit-scrollbar {
+	width: 0px;
+}

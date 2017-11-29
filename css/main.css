@@ -1,0 +1,285 @@
+.pict{
+	position: relative;
+	width: 100%;
+	background: url(../img/bridge.jpg);
+	background-size: 100% 140%;
+	height: 580px;
+	filter: blur(2pt);
+	z-index: 1;
+	transition: 1s;
+}
+/*.actpict{
+	opacity: 1;
+}*/
+.pict .blackout-pict{
+	position: relative;
+	background: black;
+	height: 580px;
+	opacity: 0.8;
+	z-index: 2;
+}
+.namesait{
+	position: absolute;
+	font-family: Qwigley;
+	font-size: 80pt;
+	top:120px;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 20pt;
+	z-index: 100;
+	color: white;
+}
+.wrap-menu{
+	position: relative;
+	top:-570px;
+	color:white;
+	z-index: 100;
+	text-align: center;
+	opacity: 1;
+}
+.menu{
+	position: absolute;
+	font-size: 10pt;
+	color: white;
+	z-index: 1;
+	font-family: Open Sans;
+}
+.menu:first-child{
+	left:12%;
+}
+.menu:nth-child(2){
+	left: 60%;
+}
+.menu:nth-child(3){
+	left:70%;
+}
+.menu:last-child{
+	left: 80%;
+}
+.menu:hover{
+	color:red;
+	border-bottom: 1.5px solid;
+	text-decoration: none;
+}
+
+.found{
+	position: absolute;
+	z-index: 100;
+	color: white;
+	width: 100%;
+	top:350px;
+	text-align: center;
+	font-family: Open Sans;
+}
+.actmenu{
+	z-index: 1;
+	opacity: 0;
+}
+.search{
+	position: absolute;
+	z-index: 99;
+	width: 50px;
+	height: 80px;
+	top:0px;
+	background:black;
+	opacity: 0;
+	border: none;
+	border-bottom: 1px solid red;
+	left:48;
+	transition: .4s ease-in;
+	padding: 0 200px;
+	font-size: 20pt;
+	color:white;
+	transition: .2s ease-in;
+}
+.search:focus{
+	outline: none;
+}
+.cl{
+	position: absolute;
+	top:14px;
+	left:95%;
+	color:white;
+	font-size: 25pt;
+	z-index: 100;	
+	transform: rotate(45deg);
+	opacity: 0;
+	transition: .3s ease-in;
+	
+}
+.actsearch{
+	left: 0px;
+	width: 100%;
+	opacity: 0.5;
+	transition: .4s ease-in;
+}
+.actcl{
+	opacity: 0.8;
+	transition: .6s ease-in;
+	
+}
+.categoriy{
+	height: 300px;
+}
+.circle{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 50%;
+	background: red;
+	box-shadow: -0.1px 0.1px .4px 2px rgba(0, 0, 0, .07);
+	margin: 0 5%;
+	top:40px;
+	left: 170px;
+}
+.circle:first-child{
+	background: url(../img/town.jpeg);
+	background-size: 180%;
+	background-position: center;
+	filter: blur(1px);
+	
+}
+.circle:nth-child(2){
+	background: url(../img/people.jpeg);
+	background-size: 180%;
+	background-position: center;
+	filter: blur(1px);
+}
+.circle:last-child{	
+	background: url(../img/nature.jpg);
+	background-size: 180%;
+	background-position: center;
+	filter: blur(1px);
+}
+.circle:hover{
+	filter: blur(0);
+}
+
+.town, .people, .nature{
+	position: relative;
+	left: 17%;
+	top:45px;
+	font-family: Qwigley;
+	font-size: 60pt;
+	color: white;
+	
+}
+.town:hover .circle{
+		filter: blur(0)
+}
+.people{
+	left: 20px;
+}
+.nature{
+	left: 28px;
+}
+.photolist{
+	height: 1700px;
+}
+.allph{
+	font-family: Open Sans;
+	font-size: 14pt;
+	padding: 0 230px;
+	font-weight: 600;
+}
+.line{
+	position: relative;
+	width: 80px;
+	height: 2px;
+	background: red;
+	top: 25px;
+	left:233px;
+}
+.bwithph{
+	position: relative;
+	top:50px;
+	background: white;
+	height: 465px;
+	box-shadow: -0.1px 0.1px .4px 2px rgba(0, 0, 0, .07);
+	z-index: 1;
+	margin-top: 35px;
+	
+	
+}
+.inside{
+	position: absolute;
+	background: white;
+	height: 433px;
+	width: 95%;
+	z-index: 2;
+	top:15px;
+	box-shadow: inset -0.1px 0.1px .4px 2px rgba(0, 0, 0, .07);	
+	overflow: hidden;
+	
+}
+
+
+.loding{
+	position: relative;
+	width: 200px;
+	height: 10px;
+	top:100px;
+	left:46.5%;
+}
+.kr{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.kr:first-child{
+	background: #d4d4d4
+}
+.kr:nth-child(2){
+	background: #8d8d8d
+}
+.kr:last-child{
+	background: #3e3e3e
+}
+.blackout{
+	position: relative;
+	height: 445px;
+	width: 100%;
+	background: black;
+	opacity: 0.8;
+	z-index: 3;
+	top:433px;
+	transition: .4s ease-in;
+}
+.inside:hover .blackout{
+	top:-20px;
+	transition-delay: .4s ease-out;
+	
+}
+.posish{
+	text-align: center;
+}
+.posish h5{
+	position: relative;
+	top:100px;
+	font-size: 30pt;
+	font-family: Qwigley;
+	color: white;
+}
+.posish p{
+	position: relative;
+	padding: 0 150px;
+	text-align: justify;
+	color:white;
+	top:120px;
+	min-height: 280px;
+}
+.posish a{
+	font-family: Qwigley;
+	color:white;
+	font-size: 20pt;
+	position: relative;
+}
+.posish a:hover{
+	color: red;
+	border-bottom: 1.5px solid;
+	text-decoration: none;
+}
+

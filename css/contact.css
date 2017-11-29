@@ -1,0 +1,248 @@
+.header{
+	height: 38px;
+	border-bottom: 1px solid red;
+	box-shadow: -0.1px 0.1px .4px 2px rgba(0, 0, 0, .1);
+	background: black;
+	opacity: 0.7;
+}
+.header .menu{
+	position: absolute;
+	font-size: 10pt;
+	top:8px;
+	color: white;
+	font-family: Open Sans;
+	z-index: 3
+	
+	
+}
+.menu:first-child{
+	left:12%;
+}
+
+.menu:nth-child(2){
+	left:70%;
+}
+.menu:last-child{
+	left: 80%;
+}
+.menu:hover{
+	color:red;
+	border-bottom: 1.5px solid;
+	text-decoration: none;
+}
+
+.block_2,.block_1{
+	top:20px;
+}
+.con{
+	position: relative;
+	height: 650px;
+	
+}
+.giveup{
+	position: relative;
+	top:-670px;
+	height: 650px;
+}
+.picture{
+	position: relative;
+	height: 700px;
+	opacity: 0.09;
+}
+.group{
+	position: relative;
+	margin-bottom: 45px;
+	top:150px;
+	width: 300px;
+	
+	
+}
+.group2{
+	width: 450px;
+/*	top:133px;*/
+}
+#name,#e-m,#telph{
+	font-family: Open Sans;
+	font-size: 12pt;
+	padding: 10px 10px 10px 5px;
+	width: 300px;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #c4c2c2;
+	transition: 0.8s;
+	background-color: transparent;
+	
+}
+#name:focus,#e-m:focus,#telph:focus,#tex:focus{
+	border-bottom: none;;
+	
+}
+
+#tex{
+	width: 450px;
+	height: 220px;
+	border: none;
+	border-bottom: 1px solid #c4c2c2;
+	resize: none;
+	transition: 0.8s;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	font-family: Open Sans;
+	font-size: 11pt;
+	background-color: transparent;
+
+}
+#tex:focus{
+	font-size: 11pt;
+}
+
+.group input:focus,.group textarea:focus {
+	outline: none;
+	
+}
+lable{
+	position: absolute;
+	font-weight: normal;
+	pointer-events: none;
+	left:5px;
+	top:10px;
+	font-size: 20pt;
+	color:#6d6d6d;
+	 transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;	
+	font-family: Qwigley;
+}
+input:focus ~ lable, 
+input:valid ~ lable{
+	top:-25px;
+	font-size: 18pt;
+	color: red;
+}
+#tex:focus ~ lable, 
+ #tex:valid ~ lable{
+	top:-28px;
+	font-size: 18pt;
+	color: red;
+}
+.box{
+	position: relative;
+	display: block;
+	width: 300px;
+}
+ .bar:before, .bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 0px;
+	position: absolute;
+	background: red;
+	transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+}
+ .bar:before{
+	left: 50%;
+}
+ .bar:after{
+	right: 50%;
+}
+
+input:focus ~ .bar:before, input:focus ~ .bar:after,textarea:focus ~ .bar:before, textarea:focus ~ .bar:after{
+	width: 50%;
+	
+}
+.btn{
+	position: absolute;
+	top:450px;
+	width: 140px;
+	height: 40px;
+	border-radius: 0;
+	border: 1px solid black;
+	left: 325px;
+	background-color: transparent;
+}
+.he1,.he2{
+	opacity: 1;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top:110px;
+	font-size: 16pt; 
+}
+.he1{
+	left:0vw;
+}
+.he2{
+	left:-100vw;
+}
+.line{
+	position: relative;
+	width: 100px;
+	height: 2px;
+	background: red;
+	top:135px;
+	left: 46.4%;
+}
+.acr{
+	position: relative;
+	width: 100px;
+	height: 50px;
+	top:140px;
+	left: 49%;
+	z-index: 1;
+}
+.switch{
+	position: absolute;
+	display: inline-block;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	z-index: 2;
+	transform: rotate(45deg);
+	background-color: transparent;
+	border: none;
+	z-index: 3;
+}
+.switch:first-child{
+	left: -15px;
+	border-bottom: 2px solid red;
+	border-left: 2px solid red;
+}
+.switch:last-child{
+	left: 15px;
+	border-right: 2px solid red;
+	border-top: 2px solid red;
+}
+.l:after{
+	content: 'Фотосессия';
+	display: block;
+	transform: rotate(-45deg);
+	position: relative;
+	left: -80px;
+	top:79px;
+	
+}
+.r:before{
+	content: 'Отзыв';
+	display: block;
+	transform: rotate(-45deg);
+	position: relative;
+	left: 39px;
+	top:-39px;	
+	
+}
+.switch:focus{
+	outline: none;
+}
+.message, .fotos{
+	position: absolute;
+	width: 100%;
+	transition: .1s ease-in;
+}
+.message{
+	left:0vw;
+}
+.fotos{
+	left: -100vw;
+}
