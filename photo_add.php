@@ -6,7 +6,7 @@ require 'db.php';
 if(!empty($_POST)){
 	$title = $_POST['title'];
 	$description = $_POST['description'];
-	$pref = '../web/';
+	$pref = '../PhotoInLife/';
 	$path = 'content/';
 	$ext = array_pop(explode('.',$_FILES['myfile']['name'])); // расширение
 	$new_name = time().'.'.$ext; // новое имя с расширением

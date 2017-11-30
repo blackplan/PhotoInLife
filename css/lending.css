@@ -25,20 +25,38 @@
 	color:white;
 	cursor: default;
 	font-family: Open Sans;
+	transition: 0.5s ease-in;
 }
 .menu:hover{
 	color:red;
-	border-bottom: 1.5px solid;
+	border-bottom: 1px solid;
 	text-decoration: none;
 }
 .menu:first-child{
-	left: 38%;
+	left: 22%;
 }
 .menu:nth-child(2){
-	left: 48%;
+	left: 32%;
+}
+.menu:nth-child(3){
+	left: 41%;
+}
+.menu:nth-child(4){
+	top:20px;
+	padding: 10px 40px;
+	border: 1.5px white solid;
+	left:66%;
+	transition: 0.5s ease-in;
 }
 .menu:last-child{
-	left: 57%;
+	top:20px;
+	padding: 10px 35px;
+	border: 1.5px white solid;
+	left:75%;
+	transition: 0.2s ease-in;
+}
+.an:hover{
+	border: 1.5px red solid;!important
 }
 /*Стилизирование назвыания сайта на превом блоке*/
 .site-name{

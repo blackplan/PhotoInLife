@@ -1,17 +1,9 @@
 <html lang="en">
 <head>
 	<link rel="shortcut icon" href="img/logo.ico">
-	<title>PhotoInLife - admin</title>
+	<title>PhotoInLife</title>
 </head>
-<script>
-	function input(){
-	if ($('#login').val() == "goodday" && $('#password').val() == 060597){
-		document.location = "mainadmin.php"}
-	else{
-		alert("Неверно введены данные")
-	}
-	}
-</script>
+
 <style>
 	body{
 		position: relative;
@@ -35,12 +27,12 @@
 		margin-top: 15px;
 		position: relative;
 		left: 20%;
-		height: 20px;
-		width: 196px;
+		height: 50px;
+		width: 200px;
 		border: 2px solid #242424;
 		background: white;
 		color:#242424;
-		padding: 15px 0;
+		padding: 15px 30px;
 		font-size: 12pt;
 		top:40px;
 		text-align: center;
@@ -49,7 +41,7 @@
 		position: relative;
 		width:120px; 
 		height:120px; 
-		background:url(../PhotoInLife/img/logo.png);
+		background: url(../PhotoInLife/img/logo.png);
 		background-size:cover;
 		left: 27%;
 		top: 10px;
@@ -57,11 +49,15 @@
 </style>
 <body>
 	<form>
-		<h1>Авторизация в админ панель</h1>
+		<h1>Регистрация в PhotoInLife</h1>
 		<div></div>
-		<input id="login" type="text" placeholder="Введите логин"><br>
-		<input id="password" type="password" placeholder="Введите пароль"><br>
-		<div class="btn" onclick="input()">Вход</div><br>
+		<input id="login" type="text" placeholder="Введите логин">
+		<br>
+		<input id="password" type="password" placeholder="Введите пароль">
+		<br>
+		<input id="password" type="password" placeholder="Повторите пароль">
+		<br>
+		<input type="submit" name="submit" id="submit" class ="btn" value="Вход">
 	</form>
 </body>
 <script src = "js/jquery-1.11.3.min.js"></script>

@@ -140,8 +140,8 @@ function presentaition(){
 		
 	}
 
-$(window).load(function(){
+/*$(window).load(function(){
 	presentaition()
 	gotoab()
-})
+})*/
 
