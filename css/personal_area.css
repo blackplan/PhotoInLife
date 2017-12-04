@@ -1,0 +1,150 @@
+.wrap-menu{
+	position: relative;
+	color:white;
+	z-index: 100;
+	text-align: center;
+	opacity: 0.7;
+	height: 40px;
+	background: black;!important;
+	border-bottom: 1px solid red;
+	box-shadow: -0.1px 0.1px .4px 2px rgba(0, 0, 0, .1);
+}
+.menu{
+	position: absolute;
+	font-size: 10pt;
+	color: white;
+	z-index: 1;
+	font-family: Open Sans;
+	top:10px;
+}
+.menu:first-child{
+	left:12%;
+}
+.menu:nth-child(2){
+	left: 60%;
+}
+.menu:nth-child(3){
+	left:70%;
+}
+.menu:last-child{
+	left: 80%;
+}
+.menu:hover{
+	color:red;
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
+.search{
+	position: absolute;
+	z-index: 99;
+	width: 50px;
+	height: 80px;
+	top:0px;
+	background:black;
+	opacity: 0;
+	border: none;
+	border-bottom: 1px solid red;
+	left:48;
+	transition: 1s ease-in;
+	padding: 0 200px;
+	font-size: 20pt;
+	color:white;
+	transition: 1s ease-in;
+}
+.search:focus{
+	outline: none;
+}
+.actmenu{
+	z-index: 1;
+	opacity: 1;
+}
+.search{
+	position: absolute;
+	z-index: 99;
+	width: 50px;
+	height: 80px;
+	top:0px;
+	background:#141414;
+	opacity: 0;
+	border: none;
+	border-bottom: 1px solid red;
+	left:48;
+	transition: .1s ease-in;
+	padding: 0 200px;
+	font-size: 20pt;
+	color:white;
+	transition: .1s ease-in;
+}
+.search:focus{
+	outline: none;
+}
+.cl{
+	position: absolute;
+	top:14px;
+	left:95%;
+	color:white;
+	font-size: 25pt;
+	z-index: 100;	
+	transform: rotate(45deg);
+	opacity: 0;
+	transition: .3s ease-in;
+	
+}
+.actsearch{
+	left: 0px;
+	width: 100%;
+	opacity: 1;
+	transition: .1s ease-in;
+}
+.actcl{
+	opacity: 0.8;
+	transition: 0.9s ease-in;
+	
+}
+.desc_wrap{
+	background: url(../img/fon.png);
+	height: 300px;
+	
+}
+.avatar{
+	position: relative;
+	background: url(../img/me.jpeg);
+	background-size: cover;
+	background-position: center;
+	top:50px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.btm_line{
+	width: 100%;
+	border-bottom: 1px solid red;
+	box-shadow: -0.1px 0.1px .4px 2px rgba(0, 0, 0, .1);
+}
+.pers_name{
+	position: relative;
+	top:70px;
+	color: white;
+	
+}
+.pers_desc{
+	position: relative;
+	top:70px;
+	color: white;
+}
+.b_foto{
+	position: relative;
+	top:50px;
+	left: -25px;
+	width: 250px;
+	height: 200px;
+	background: url(../content/music-singer.jpg);
+	background-size: cover;
+	cursor: pointer;
+	
+}
+.r_spase{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
