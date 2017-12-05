@@ -50,23 +50,29 @@
 	<div class="row r_spase">
 		<div class="col-lg-offset-2 col-lg-3">
 			<div class = "b_foto"></div>
+			<div class="save_btn"></div>
 		</div>
 		<div class="col-lg-3">
 			<div class = "b_foto"></div>
+			<div class="save_btn"></div>
 		</div>
 		<div class="col-lg-3">
 			<div class = "b_foto"></div>
+			<div class="save_btn"></div>
 		</div>
 	</div>
 	<div class="row r_spase">
 		<div class="col-lg-offset-2 col-lg-3">
 			<div class = "b_foto"></div>
+			<div class="save_btn"></div>
 		</div>
 		<div class="col-lg-3">
 			<div class = "b_foto"></div>
+			<div class="save_btn"></div>
 		</div>
 		<div class="col-lg-3">
 			<div class = "b_foto"></div>
+			<div class="save_btn"></div>
 		</div>
 	</div>
 	</div>

@@ -60,37 +60,8 @@ header("Location: contactdone.php");
 	<div class="picture"></div>
 	
 	<h4 class="he1">Свяжитесь с нами сейчас</h4>
-	<h4 class="he2">Закажите фотосессию</h4>
 <div class ="giveup">
-	<div class="acr">
-		<button class = "switch l" onclick="fotos()"></button>
-		<button class = "switch r" onclick="message()"></button>
-	</div>
-	<form class ="message">
-		<div class="col-lg-4 col-lg-offset-2 block_2">
-		<div class="group">
-	    	<input id ="name" type="text" required>
-	    	<span class="bar"></span>
-			<lable for="name" >Name</lable>
-		</div>
-		<div class="group">	
-			<input id = "e-m" type="text" required>
-			<span class="bar"></span>
-			<lable for = "e-m">E-mail</lable>
-		</div>	
-		</div>
-		<div class="col-lg-4 block_1">
-		<div class="group2 group">
-			<textarea id = "tex" type="text" onkeyup="l()" required></textarea>
-			<span class="bar"></span>
-			<lable>Your message</lable>
-		</div>
-		<button class = "btn">Отправить</button>
-			</div>	
-	</form>
-	
-	
-		<form class = "fotos" action="contact.php" method="post">
+		<form class = "message" action="contact.php" method="post">
 			<div class="col-lg-4 col-lg-offset-2 block_2">
 				<div class="group">
 	    	<input id ="name" type="text" name="name" required value="<?php echo !empty($name)?$name:'';?>">
