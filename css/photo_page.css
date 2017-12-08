@@ -1,0 +1,80 @@
+.photo_pict{
+	background: url(../content/1494705524.jpeg);
+	width: 500px;
+	height: 350px;
+	position: relative;
+	top:50px;
+	background-size: cover;
+}
+.ph_group{
+	position: relative;
+	top:50px;
+	opacity: 1;
+	z-index: 1;
+}
+.ph_group>h3,.buy_form_group>h3{
+	padding: 15px 0;
+}
+.ph_group>p{
+	padding: 0 0px 60px 0px;
+	min-height: 180px;
+	max-width: 500px;
+}
+.ph_group .buy, .buy_form_group .btn_s {
+	background-color: transparent;
+	width: 200px;
+	border: 1.5px solid #242424;
+	color:#242424;
+	padding: 15px 30px;
+	font-size: 12pt;
+	top:40px;
+	text-align: center;
+	transition: 0.3s ease-in;
+	
+}
+.ph_group .buy:hover, .buy_form_group .btn_s:hover {
+	border-color: red;
+	color: red;
+}
+.buy_form_group{
+	position: relative;
+	top:-290px;
+	opacity: 0;
+	z-index: 0;
+}
+#name,#e-m,#pn{
+	width: 300px;
+}
+#cardn{
+	width: 245px;
+}
+#cvc{
+	width: 50px;
+	left: 250px
+}
+#cardn,#cvc{
+	display: inline-block;
+}
+.group{
+	position: relative;
+	margin-bottom: 25px;
+	width: 300px;
+}
+#name,#e-m,#pn,#cardn,#cvc{
+	position: relative;
+	display: block;
+}
+lable{
+	position: absolute;
+	font-weight: normal;
+	pointer-events: none;
+	left:0px;
+	top:-20px;
+}
+#cvc~lable{
+	left: 250px;
+	top:0px;
+}
+
+
+

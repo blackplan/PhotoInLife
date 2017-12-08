@@ -70,7 +70,7 @@
 					echo '<div class="posish">';
 					echo '<h5>'. $row['Title'] .'</h5>';
 					echo '<p>'. $row['Description'].'</p>';
-					echo '<a href="">Go to photo</a>';
+					echo '<a href="photo_page.php">Go to photo</a>';
 					echo '</div>';
 					echo '</div>';
 					echo '</div>';

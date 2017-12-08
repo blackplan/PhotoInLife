@@ -7,6 +7,13 @@ var n = 0;
 var k = 1;
 
 
+function buy(){
+	$(".ph_group").css("opacity","0")
+	$(".ph_group").css("z-index","0")
+	$(".buy_form_group").css("opacity","1")
+	$(".buy_form_group").css("z-index","1")
+}
+
 function pictzoomc(){
 		$('.photocolon').toggleClass("actph")
 		$('.phead').toggleClass("actphaed")

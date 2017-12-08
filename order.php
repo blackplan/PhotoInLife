@@ -10,6 +10,7 @@
 		margin: 0 auto;
 		position: relative;
 		top:30px;
+		
 	}
 	h1{
 		text-align: center;
